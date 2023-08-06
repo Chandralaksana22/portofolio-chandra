@@ -1,11 +1,9 @@
 <script setup>
 import HeroVue from '../components/Home/Hero.vue';
-import Portofolio from '../components/Home/Portofolio.vue'
 </script>
 
 <template>
   <main>
     <HeroVue/>
-    <Portofolio/>
   </main>
 </template>
