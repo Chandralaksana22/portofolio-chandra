@@ -1,9 +1,9 @@
 <template>
-  <section class="px-4 py-24 mx-auto max-w-7xl">
+  <section class="px-4 md:px-32 mx-auto mt-20">
     <h2 class="mb-2 text-3xl font-extrabold leading-tight text-gray-900 mb-5">My Portofolio</h2>
-    <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 mt-5">
+    <div class="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3 mt-5">
       <div
-        class="max-w-sm bg-white border border-gray-200 rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"
+        class="w-full bg-white border border-gray-200 rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"
       >
         <a href="#">
           <div class="card p-5 rounded-[20px]">
@@ -25,7 +25,7 @@
       </div>
     </div>
     <div
-      class="flex flex-col items-center justify-center mt-20 space-x-0 space-y-2 md:space-x-2 md:space-y-0 md:flex-row"
+      class="flex flex-col items-center justify-center mt-5 space-x-0 space-y-2 md:space-x-2 md:space-y-0 md:flex-row"
     >
       <a href="#" class="w-full rounded-full btn btn-light btn-xl md:w-auto">More Portofolio</a>
     </div>

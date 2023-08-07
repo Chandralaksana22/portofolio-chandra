@@ -1,14 +1,14 @@
 <template>
-  <section class="px-4 py-24 mx-auto max-w-7xl">
+  <section class="px-4 md:px-32 mx-auto max-w-7xl">
     <h2 class="mb-2 text-3xl font-extrabold leading-tight text-gray-900 mb-5">Experience</h2>
 
     <ol class="relative border-l border-gray-200 dark:border-gray-700">
       <li class="mb-10 ml-6">
         <span
-          class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+          class="absolute flex items-center justify-center w-6 h-6 bg-red-600 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
         >
           <svg
-            class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+            class="w-2.5 h-2.5 text-white dark:text-blue-300"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -22,7 +22,7 @@
         <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
           Mindimedia
           <span
-            class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3"
+            class="bg-red-600 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3"
             >Latest</span
           >
         </h3>
@@ -35,10 +35,10 @@
       </li>
       <li class="mb-10 ml-6">
         <span
-          class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+          class="absolute flex items-center justify-center w-6 h-6 bg-red-600 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
         >
           <svg
-            class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+            class="w-2.5 h-2.5 text-white dark:text-blue-300"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -61,10 +61,10 @@
       </li>
       <li class="ml-6 mb-10">
         <span
-          class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+          class="absolute flex items-center justify-center w-6 h-6 bg-red-600 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
         >
           <svg
-            class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+            class="w-2.5 h-2.5 text-white dark:text-blue-300"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -87,10 +87,10 @@
       </li>
       <li class="ml-6 mb-10">
         <span
-          class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+          class="absolute flex items-center justify-center w-6 h-6 bg-red-600 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
         >
           <svg
-            class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+            class="w-2.5 h-2.5 text-white dark:text-blue-300"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -113,10 +113,10 @@
       </li>
       <li class="ml-6 mb-10">
         <span
-          class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+          class="absolute flex items-center justify-center w-6 h-6 bg-red-600 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
         >
           <svg
-            class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+            class="w-2.5 h-2.5 text-white dark:text-blue-300"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
