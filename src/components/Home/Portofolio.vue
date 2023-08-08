@@ -3,24 +3,25 @@
     <h2 class="mb-2 text-3xl font-extrabold leading-tight text-gray-900 mb-5">My Portofolio</h2>
     <div class="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3 mt-5">
       <div
+        v-for="project in projects" :key="project.slug"
         class="w-full bg-white border border-gray-200 rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700"
       >
-        <a href="#">
+         <router-link :to="'/project/' + project.slug">
           <div class="card p-5 rounded-[20px]">
             <img
               class="brightness-90 rounded-lg"
-              src="https://static.wixstatic.com/media/1307c8_4e3d076464a4436fb2c00751d519af29~mv2.png/v1/fill/w_740,h_401,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1307c8_4e3d076464a4436fb2c00751d519af29~mv2.png"
+              :src="project.image"
               alt="Image"
             />
           </div>
-        </a>
+        </router-link>
         <div class="p-5">
-          <a href="#">
+           <router-link :to="'/project/' + project.slug">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Munio Landing Page
+              {{ project.title }}
             </h5>
-          </a>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Vhiweb</p>
+          </router-link>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{ project.category }}</p>
         </div>
       </div>
     </div>
@@ -31,3 +32,17 @@
     </div>
   </section>
 </template>
+<script>
+import { ref } from 'vue';
+import projectsData from '../../lib/data.json'
+
+export default {
+  setup() {
+    const projects = ref(projectsData);
+
+    return {
+      projects
+    };
+  }
+};
+</script>

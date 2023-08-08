@@ -1,0 +1,47 @@
+[
+    {
+      "image": "https://static.wixstatic.com/media/1307c8_4e3d076464a4436fb2c00751d519af29~mv2.png/v1/fill/w_740,h_401,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1307c8_4e3d076464a4436fb2c00751d519af29~mv2.png",
+      "title": "Munio Landing Page",
+      "deskripsi": "The Munio Landing Page is a dedicated platform designed to provide comprehensive and up-to-date information about Munio. With an engaging and informative landing page design, this platform aims to offer a holistic overview of what Munio has to offer. Prioritizing a user-friendly experience, the Munio Landing Page is crafted to enable visitors to gain insights into Munio's products, services, and value proposition effortlessly. From technology to customer service, the landing page presents information in an easily digestible manner. From customer testimonials to product demos, the Munio Landing Page presents a range of information sought by potential users or customers of Munio. With information presented in an intuitive layout, visitors can readily find answers to their questions and comprehend how Munio can cater to their needs. Whether you're a professional within industries related to Munio or simply curious about what Munio brings to the table, this landing page serves as a reliable source of information. With a blend of captivating design and informative content, the Munio Landing Page acts as a window to unveil insights into the world of Munio and what sets it apart.",
+      "category": "Web Development",
+      "slug": "munio-landing-page",
+      "tim": "Vhiweb",
+      "gallery":[],
+      "anggotaTim": [
+        {
+          "nama": "Trisna Chandra Laksana",
+          "posisi": "Front-end Developer",
+          "avatar": ""
+        }
+       
+      ],
+      "teknologi": "Svelte JS, TailwindCSS, SCSS",
+      "tanggal": "2023-08-08"
+    },
+    {
+      "image": "https://static.wixstatic.com/media/1307c8_bb6e588f7b954174b18025d81b1b4f7e~mv2.png/v1/fill/w_740,h_392,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1307c8_bb6e588f7b954174b18025d81b1b4f7e~mv2.png",
+      "title": "Chat Your Friend",
+      "deskripsi": "Safety in Emergency Situations is an application designed to help you confidently face various dangers. As a First Aid Application, this app provides invaluable guidance and information in emergency situations that require swift action. With a range of provided features, this app offers solutions that can assist you in taking immediate and effective measures. Equipped with a first aid guide that you can access at any time, emergency contact numbers that can be dialed in urgent situations, and a location-sharing feature for requesting immediate help. With this First Aid Application, you can feel more prepared and self-assured when confronted with various emergency scenarios that may arise. Whether you're on the road, at home, or in public places, this app will provide you with the guidance and resources you need to ensure your safety and the safety of those around you. Utilizing modern technology and a user-friendly interface, Safety in Emergency Situations offers a reliable solution for addressing emergencies quickly and accurately. Consequently, you can feel safer and more equipped to face any challenges that may come your way.",
+      "category": "Web Development",
+      "slug": "mobile-app-project",
+      "tim": "Personal",
+      "gallery":[
+        {
+          "image_galery":"https://static.wixstatic.com/media/1307c8_cbdd075613fe4bfe9f326cb4a98c6bb6~mv2.png/v1/fill/w_740,h_394,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1307c8_cbdd075613fe4bfe9f326cb4a98c6bb6~mv2.png"
+        },
+        {
+          "image_galery":"https://static.wixstatic.com/media/1307c8_15554331dbbe4c69b61699e4981f40f2~mv2.png/v1/fill/w_740,h_438,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1307c8_15554331dbbe4c69b61699e4981f40f2~mv2.png"
+        }
+      ],
+      "anggotaTim": [
+        {
+          "nama": "Trisna Chandra Laksana",
+          "posisi": "Front-end Developer",
+          "avatar": ""
+        }
+      ],
+      "teknologi": "ReactJS, TailwindCSS, WhatsApp API, Geo Location",
+      "tanggal": "2023-07-15"
+    }
+  ]
+  
