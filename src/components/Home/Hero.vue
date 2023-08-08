@@ -1,7 +1,7 @@
 <template>
-  <section class="bg-black">
-    <div class="lg:h-[100vh] h-auto">
-      <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:pt-[20rem] pt-1 lg:py-16">
+  <section class="section-hero" style="background-size: cover; background-position: bottom;">
+    <div class="h-[100vh]">
+      <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:pt-[20rem] pt-[10rem] lg:py-16">
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white"
         >
@@ -49,3 +49,8 @@
     </div>
   </section>
 </template>
+<style>
+.section-hero{
+  background-image: url(../../assets/pxfuel.jpg);
+}
+</style>
