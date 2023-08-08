@@ -1,27 +1,55 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import OverViewVue from '../views/OverView.vue'
-import ProjectDetailPage from '../views/ProjectDetailPage.vue';
+import { createRouter, createWebHistory } from "vue-router";
+import HomeView from "../views/HomeView.vue";
+import OverViewVue from "../views/OverView.vue";
+import ProjectDetailPage from "../views/ProjectDetailPage.vue";
 
 const routes = [
-    {
-      path: '/',
-      name: 'home',
-      component: HomeView
+  {
+    path: "/",
+    name: "home",
+    component: HomeView,
+    beforeEnter(to, from, next) {
+      scrollToTopSmoothly();
+      next();
     },
-    {
-      path: '/overview',
-      name: 'overview',
-      component: OverViewVue,
+  },
+  {
+    path: "/overview",
+    name: "overview",
+    component: OverViewVue,
+    beforeEnter(to, from, next) {
+      scrollToTopSmoothly();
+      next();
     },
-    { path: '/project/:slug', 
-      component: ProjectDetailPage, 
-      name: 'project-detail' 
-    }
-  ]
-  const router = createRouter({
-    history: createWebHistory(),
-    routes,
-  });
+  },
+  {
+    path: "/project/:slug",
+    component: ProjectDetailPage,
+    name: "project-detail",
+    beforeEnter(to, from, next) {
+      scrollToTopSmoothly();
+      next();
+    },
+  },
+];
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+});
 
-export default router
+export default router;
+
+// Function to smoothly scroll to the top
+function scrollToTopSmoothly() {
+  const duration = 500; // Duration of the scroll animation in milliseconds
+  const scrollStep = -window.scrollY / (duration / 15);
+
+  function scrollAnimation() {
+    if (window.scrollY !== 0) {
+      window.scrollBy(0, scrollStep);
+      requestAnimationFrame(scrollAnimation);
+    }
+  }
+
+  requestAnimationFrame(scrollAnimation);
+}
