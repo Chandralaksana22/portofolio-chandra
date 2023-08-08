@@ -2,9 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import OverViewVue from '../views/OverView.vue'
 
-const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
+const routes = [
     {
       path: '/',
       name: 'home',
@@ -16,6 +14,9 @@ const router = createRouter({
       component: OverViewVue,
     }
   ]
-})
+  const router = createRouter({
+    history: createWebHistory(),
+    routes,
+  });
 
 export default router
