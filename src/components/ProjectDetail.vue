@@ -17,7 +17,7 @@
             </p>
         </div>
 
-        <div class="mx-auto prose px-10 lg:px-20">
+        <div class="mx-auto prose px-10 lg:px-20 text-justify">
             {{ project.deskripsi }}
         </div>
         </article>
