@@ -3,7 +3,7 @@
     <div
       v-for="repo in displayedRepositories"
       :key="repo.id"
-      class="card-open-project flex flex-col justify-between shadow-md"
+      class="card-open-project w-full flex flex-col justify-between shadow-md"
     >
       <div class="head-body-section p-5">
         <div class="head-card flex items-center space-x-3 mb-3">
