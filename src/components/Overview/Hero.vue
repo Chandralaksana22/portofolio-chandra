@@ -1,5 +1,5 @@
 <template>
-    <div class="hero min-h-screen px-10 lg:px-20">
+    <div class="hero min-h-screen mt-20 px-10 lg:px-20">
     <div class="hero-content flex-col lg:flex-row">
         <img src="../../assets/foto.webp" class="max-w-sm rounded-lg shadow-2xl" />
         <div>
