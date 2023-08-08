@@ -18,7 +18,8 @@
           class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
         >
           <a
-            href="#"
+          href="@/assets/Trisna_cv.pdf"
+          download="Trisna_Chandra_Laksana_Resume.pdf"
             class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-red-700 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900"
           >
             Resume
@@ -38,12 +39,11 @@
               />
             </svg>
           </a>
-          <a
-            href="#"
-            class="inline-flex justify-center items-center py-3 px-5 text-base bg-white font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+          <router-link to="/overview"
+          class="inline-flex justify-center items-center py-3 px-5 text-base bg-white font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
           >
             About Me
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
