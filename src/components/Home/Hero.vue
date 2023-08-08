@@ -18,8 +18,8 @@
           class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
         >
           <a
+          id="resumeLink"
           href="@/assets/Trisna_cv.pdf"
-          download="Trisna_Chandra_Laksana_Resume.pdf"
             class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-red-700 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900"
           >
             Resume
@@ -54,3 +54,15 @@
   background-image: url(../../assets/pxfuel.jpg);
 }
 </style>
+<script>
+export default {
+  mounted() {
+    const resumeLink = document.getElementById('resumeLink');
+    resumeLink.addEventListener('click', (event) => {
+      event.preventDefault(); 
+      const pdfUrl = resumeLink.getAttribute('href');
+      window.open(pdfUrl, '_blank');
+    });
+  },
+};
+</script>
