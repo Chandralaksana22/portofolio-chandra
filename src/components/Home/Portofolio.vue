@@ -35,7 +35,7 @@
     <div
       class="flex flex-col items-center justify-center mt-5 space-x-0 space-y-2 md:space-x-2 md:space-y-0 md:flex-row"
     >
-      <a href="#" class="w-full rounded-full btn btn-light btn-xl md:w-auto"
+      <a href="/portofolio" class="w-full rounded-full btn btn-light btn-xl md:w-auto"
         >More Portofolio</a
       >
     </div>
