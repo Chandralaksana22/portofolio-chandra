@@ -11,7 +11,7 @@
         {
           "nama": "Trisna Chandra Laksana",
           "posisi": "Front-end Developer",
-          "avatar": ""
+          "avatar": "https://static.wixstatic.com/media/1307c8_fe5668647d6c42d8bf138af6bd5f2dd1~mv2.jpg/v1/fill/w_379,h_346,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1307c8_fe5668647d6c42d8bf138af6bd5f2dd1~mv2.jpg"
         }
        
       ],
@@ -37,11 +37,88 @@
         {
           "nama": "Trisna Chandra Laksana",
           "posisi": "Front-end Developer",
-          "avatar": ""
+          "avatar": "https://static.wixstatic.com/media/1307c8_fe5668647d6c42d8bf138af6bd5f2dd1~mv2.jpg/v1/fill/w_379,h_346,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1307c8_fe5668647d6c42d8bf138af6bd5f2dd1~mv2.jpg"
         }
       ],
       "teknologi": "ReactJS, TailwindCSS, WhatsApp API, Geo Location",
       "tanggal": "2023-07-15"
+    },
+    {
+      "image": "https://static.wixstatic.com/media/1307c8_daa012a000334a9f8012e133275a9623~mv2.png/v1/fill/w_740,h_502,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/1307c8_daa012a000334a9f8012e133275a9623~mv2.png",
+      "title": "Santos Jaya Abadi",
+      "deskripsi": "Santos Jaya Abadi is a leading coffee company based in Indonesia known for its commitment to producing high-quality coffee products. With a focus on sourcing premium beans and employing sustainable practices, the company offers a diverse range of coffee options to cater to different consumer preferences. They prioritize excellence in production, packaging, and innovation while also actively contributing to the well-being of local communities through their social and environmental initiatives. Santos Jaya Abadi has earned a trusted reputation and continues to shape the coffee industry in Indonesia and beyond.",
+      "category": "Web Development",
+      "slug": "santos-jaya-abadi",
+      "tim": "Vhiweb",
+      "gallery":[
+        {
+          "image_galery":"https://static.wixstatic.com/media/1307c8_9019659443ae473786a4b06a95a0562c~mv2.png/v1/fill/w_740,h_502,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/1307c8_9019659443ae473786a4b06a95a0562c~mv2.png"
+        },
+        {
+          "image_galery":"https://static.wixstatic.com/media/1307c8_05f4457b47144eba8ac1cdad05507fd4~mv2.png/v1/fill/w_740,h_502,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/1307c8_05f4457b47144eba8ac1cdad05507fd4~mv2.png"
+        },
+        {
+          "image_galery":"https://static.wixstatic.com/media/1307c8_8768c7964f0445e58247fe27b313542f~mv2.png/v1/fill/w_740,h_390,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1307c8_8768c7964f0445e58247fe27b313542f~mv2.png"
+        }
+      ],
+      "anggotaTim": [
+        {
+          "nama": "Trisna Chandra Laksana",
+          "posisi": "Front-end Developer",
+          "avatar": "https://static.wixstatic.com/media/1307c8_fe5668647d6c42d8bf138af6bd5f2dd1~mv2.jpg/v1/fill/w_379,h_346,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1307c8_fe5668647d6c42d8bf138af6bd5f2dd1~mv2.jpg"
+        },
+        {
+          "nama": "Khalid Al Asad",
+          "posisi": "Back-end Developer",
+          "avatar": ""
+        },
+        {
+          "nama": "Aldo Julian Akbar",
+          "posisi": "QA Engineer",
+          "avatar": ""
+        },
+        {
+          "nama": "Priya Muda Wineko",
+          "posisi": "UI UX Designer",
+          "avatar": ""
+        }
+      ],
+      "teknologi": "SvelteJS, TailwindCSS, RestAPI",
+      "tanggal": "2023-01-15"
+    },
+    {
+      "image": "https://static.wixstatic.com/media/1307c8_f408a99eaeb04ce3852a1382f3c05bbc~mv2.png/v1/fill/w_740,h_399,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1307c8_f408a99eaeb04ce3852a1382f3c05bbc~mv2.png",
+      "title": "Munio.ID",
+      "deskripsi": "Munio is a platform aimed at assisting communities and organizations in managing their members with various appealing features. Through the offered solutions, Munio streamlines the task of organizing and overseeing members within a group or entity. This platform enables communities and organizations to maintain member data in a more organized and efficient manner.",
+      "category": "Web Development",
+      "slug": "munio-page",
+      "tim": "Vhiweb",
+      "gallery":[],
+      "anggotaTim": [
+        {
+          "nama": "Trisna Chandra Laksana",
+          "posisi": "Front-end Developer",
+          "avatar": "https://static.wixstatic.com/media/1307c8_fe5668647d6c42d8bf138af6bd5f2dd1~mv2.jpg/v1/fill/w_379,h_346,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1307c8_fe5668647d6c42d8bf138af6bd5f2dd1~mv2.jpg"
+        },
+        {
+          "nama": "Khalid Al Asad",
+          "posisi": "Back-end Developer",
+          "avatar": ""
+        },
+        {
+          "nama": "Aldo Julian Akbar",
+          "posisi": "QA Engineer",
+          "avatar": ""
+        },
+        {
+          "nama": "Priya Muda Wineko",
+          "posisi": "UI UX Designer",
+          "avatar": ""
+        }
+       
+      ],
+      "teknologi": "Svelte JS, TailwindCSS, SCSS",
+      "tanggal": "2022-08-08"
     }
   ]
   
