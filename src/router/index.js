@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import Portoview from "../views/Portoview.vue"
 import OverViewVue from "../views/OverView.vue";
+import CareerVue from "../views/CareerView.vue"
 import ProjectDetailPage from "../views/ProjectDetailPage.vue";
 
 const routes = [
@@ -17,6 +19,24 @@ const routes = [
     path: "/overview",
     name: "overview",
     component: OverViewVue,
+    beforeEnter(to, from, next) {
+      scrollToTopSmoothly();
+      next();
+    },
+  },
+  {
+    path: "/portofolio",
+    name: "portofolio",
+    component: Portoview,
+    beforeEnter(to, from, next) {
+      scrollToTopSmoothly();
+      next();
+    },
+  },
+  {
+    path: "/career",
+    name: "career",
+    component: CareerVue,
     beforeEnter(to, from, next) {
       scrollToTopSmoothly();
       next();
