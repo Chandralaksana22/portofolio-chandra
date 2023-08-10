@@ -262,7 +262,7 @@
             <h3
               class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white"
             >
-              Bronzone Medal Islamic Science Olympiad
+              Bronze Medal Islamic Science Olympiad
             </h3>
             <time
               class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
@@ -288,7 +288,7 @@
             <h3
               class="mb-1 text-lg font-semibold text-gray-900 dark:text-white"
             >
-              Bronzone Medal Big Fair Science Competition
+              Bronze Medal Big Fair Science Competition
             </h3>
             <time
               class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
@@ -314,7 +314,7 @@
             <h3
               class="mb-1 text-lg font-semibold text-gray-900 dark:text-white"
             >
-              Bronzone Medal Hardiknas Competition
+              Bronze Medal Hardiknas Competition
             </h3>
             <time
               class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
